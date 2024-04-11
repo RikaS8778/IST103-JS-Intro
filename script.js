@@ -32,6 +32,16 @@ let myProfile = {
     age: 36
 };
 
+if(!myProfile.hasChild){
+    console.log("Do you think that it's too late to have child if you are over "+ myProfile.age + " years old ?")
+} else if (myProfile.fName === "Rika") {
+    console.log("I'm " + myProfile.fName + myProfile.lName + ".");
+} else if (myProfile.hasChild){
+    console.log("What is your child's name?");
+}
+
+console.log("Need to " + todoList[4] + " for making friends!");
+
    
 
 
