@@ -12,8 +12,11 @@ if(def_status === true){
 };
 
 for(let i = 0; i <=8; i++) {
-    if (i=fav_num)
+    if (i === fav_num)
     console.log(fav_num + " is my favorit number!");
+    else if (i !== fav_num) {
+        console.log( i + " isn't my favorit number..., next loop!");
+    }
 }
 
 //activity3
